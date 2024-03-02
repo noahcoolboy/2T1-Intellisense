@@ -1,5 +1,7 @@
 # 2T1-Intellisense
 This repository offers the entirety of the 2Take1Menu Lua API in the form of LuaCATS annotations for use with the [Lua Language Server](https://github.com/luals/lua-language-server). This allows for VSCode autocompletion while creating 2T1 scripts.
+![Preview](https://github.com/noahcoolboy/2T1-Intellisense/assets/46800081/f37b2372-4ce9-4070-ae80-0b7a29535205)
+
 
 ### How do I install this?
 Clone the repository and place it in any folder empty folder you like.  
@@ -7,7 +9,6 @@ In VSCode, press CTRL + SHIFT + P, and select `Preferences: Open User Settings (
 Add an entry like the following:
 ```json
 {
-    // Other settings...
     "Lua.workspace.library": [
         "C:\\Your\\Folder\\Here"
     ]
