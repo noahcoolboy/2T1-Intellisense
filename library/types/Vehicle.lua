@@ -1,0 +1,85 @@
+---@meta Vehicle-related type definitions
+
+---- VehicleHandling Class ----
+
+---@class VehicleHandling Vehicle handling data
+---@field fMass number
+---@field fInitialDragCoeff number
+---@field fDownforceMod number
+---@field vCentreOfMassOffset v3
+---@field vInertiaMult v3
+---@field fPercentSubmerged number
+---@field fBuoyancyConstant number
+---@field fDriveBiasFront number
+---@field fDriveBiasRear number
+---@field btInitialDriveGears integer
+---@field fDriveInertia number
+---@field fClutchChangeRateScaleUpShift number
+---@field fClutchChangeRateScaleDownShift number
+---@field fInitialDriveForce number
+---@field fDriveMaxFlatVel number
+---@field fInitialDriveMaxFlatVel number
+---@field fBrakeForce number
+---@field fBrakeBias number
+---@field fBrakeBiasFront number
+---@field fBrakeBiasRear number
+---@field fHandBrakeForce number
+---@field fSteeringLock number
+---@field fSteeringLockRatio number
+---@field fTractionCurveMax number
+---@field fTractionCurveMaxRatio number
+---@field fTractionCurveMin number
+---@field fTractionCurveMinRatio number
+---@field fTractionCurveLateral number
+---@field fTractionCurveLateralRatio number
+---@field fTractionSpringDeltaMax number
+---@field fTractionSpringDeltaMaxRatio number
+---@field fLowSpeedTractionLossMult number
+---@field fCamberStiffnesss number
+---@field fTractionBiasFront number
+---@field fTractionBiasRear number
+---@field fTractionLossMult number
+---@field fSuspensionForce number
+---@field fSuspensionCompDamp number
+---@field fSuspensionReboundDamp number
+---@field fSuspensionUpperLimit number
+---@field fSuspensionLowerLimit number
+---@field fSuspensionRaise number
+---@field fAntiRollBarForce number
+---@field fRollCentreHeightFront number
+---@field fRollCentreHeightRear number
+---@field fCollisionDamageMult number
+---@field fWeaponDamageMult number
+---@field fDeformationDamageMult number
+---@field fEngineDamageMult number
+---@field fPetrolTankVolume number
+---@field fOilVolume number
+---@field fPetrolConsumptionRate number
+---@field fSeatOffsetDistX number
+---@field fSeatOffsetDistY number
+---@field fSeatOffsetDistZ number
+---@field fRocketMaxEnergy number
+---@field fRocketBoostSpeed number
+---@field strModelFlags integer
+---@field strHandlingFlags integer
+---@field strDamageFlags integer
+---@field AIHandling integer
+---@field fEstimatedMaxFlatVel number
+
+
+---- CarHandlingData Class ----
+
+---@class CarHandlingData Car handling data
+---@field fBackEndPopUpCarImpulseMult number
+---@field fBackEndPopUpBuildingImpulseMult number
+---@field fBackEndPopUpMaxDeltaSpeed number
+---@field fToeFront number
+---@field fToeRear number
+---@field fCamberFront number
+---@field fCamberRear number
+---@field fCastor number
+---@field fEngineResistance number
+---@field fMaxDriveBiasTransfer number
+---@field fJumpForceScale number
+---@field fIncreasedRammingForceScale number
+---@field strAdvancedFlags number
