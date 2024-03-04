@@ -1,7 +1,7 @@
 ---@meta Event type definitions and function definitions
 
 
-events = {}
+event = {}
 
 ---@alias EventName
 ---| '"exit"' # Exit event
@@ -15,13 +15,13 @@ events = {}
 ---@param name EventName
 ---@param callback fun(event: ExitEvent|ChatEvent|PlayerJoinEvent|PlayerLeaveEvent|ScriptEvent|ModderEvent)
 ---@return integer The unique event listener ID
-function events.add_event_listener(name, callback) end
+function event.add_event_listener(name, callback) end
 
 -- Remove an event handler
 ---@param name EventName
 ---@param id integer
 ---@return boolean
-function events.remove_event_listener(name, id) end
+function event.remove_event_listener(name, id) end
 
 ---@class ExitEvent
 ---@field code integer
