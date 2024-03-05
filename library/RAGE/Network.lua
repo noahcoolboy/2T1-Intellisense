@@ -101,12 +101,12 @@ function network.get_entity_net_owner(entity) end
 function network.get_entity_net_id(entity) end
 
 -- Returns the entity of a network ID.
----@param netId int
+---@param netId integer
 ---@return Entity?
 function network.get_net_id_entity(netId) end
 
 -- Joins via SCID.
----@param scid int
+---@param scid integer
 function network.join_scid(scid) end
 
 -- Joins a new lobby.<br>
@@ -132,7 +132,7 @@ function network.join_new_lobby(type) end
 function network.give_player_control_of_entity(player, entity) end
 
 -- Adds a friend.
----@param scid int
+---@param scid integer
 ---@param msg string
 ---@return boolean
 function network.add_friend(scid, msg) end
