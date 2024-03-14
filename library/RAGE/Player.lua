@@ -255,3 +255,8 @@ function player.set_player_parachute_model(player, model) end
 ---@param flag integer
 ---@return boolean
 function player.mark_as_modder(player, flag) end
+
+-- Teleports the player to a location
+---@param player Player
+---@param coord v3
+function player.teleport_player_on_foot(player, coord) end
