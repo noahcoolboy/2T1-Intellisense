@@ -97,7 +97,7 @@ function network.get_entity_net_owner(entity) end
 
 -- Returns the network ID of an entity.
 ---@param entity Entity
----@return int?
+---@return integer?
 function network.get_entity_net_id(entity) end
 
 -- Returns the entity of a network ID.
@@ -123,7 +123,7 @@ function network.join_scid(scid) end
 --     JOIN_CREW     = 12,<br>
 --     SCTV          = 13,<br>
 -- }
----@param type eLobbyType
+---@param type integer
 function network.join_new_lobby(type) end
 
 -- Gives a player control of an entity.

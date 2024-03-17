@@ -654,7 +654,7 @@ function vehicle.set_vehicle_max_gear(veh, gear) end
 -- Get the vehicle's gear ratio
 ---@param veh Vehicle
 ---@param gear integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_gear_ratio(veh, gear) end
 
 -- Set the vehicle's gear ratio
@@ -666,7 +666,7 @@ function vehicle.set_vehicle_gear_ratio(veh, gear, ratio) end
 
 -- Get the vehicle's RPM
 ---@param veh Vehicle
----@return float?
+---@return number?
 function vehicle.get_vehicle_rpm(veh) end
 
 -- Check if the vehicle has been owned by the player
@@ -682,7 +682,7 @@ function vehicle.set_vehicle_has_been_owned_by_player(veh, owned) end
 
 -- Get the vehicle's steer bias
 ---@param veh Vehicle
----@return float?
+---@return number?
 function vehicle.get_vehicle_steer_bias(veh) end
 
 -- Set the vehicle's steer bias
@@ -715,25 +715,25 @@ function vehicle.get_vehicle_wheel_count(veh) end
 -- Get the vehicle's wheel tire radius
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_tire_radius(veh, idx) end
 
 -- Get the vehicle's wheel rim radius
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_rim_radius(veh, idx) end
 
 -- Get the vehicle's wheel tire width
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_tire_width(veh, idx) end
 
 -- Get the vehicle's wheel rotation speed
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_rotation_speed(veh, idx) end
 
 -- Set the vehicle's wheel tire radius
@@ -766,7 +766,7 @@ function vehicle.set_vehicle_wheel_rotation_speed(veh, idx, v) end
 
 -- Get the vehicle's wheel render size
 ---@param veh Vehicle
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_render_size(veh) end
 
 -- Set the vehicle's wheel render size
@@ -777,7 +777,7 @@ function vehicle.set_vehicle_wheel_render_size(veh, size) end
 
 -- Get the vehicle's wheel render width
 ---@param veh Vehicle
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_render_width(veh) end
 
 -- Set the vehicle's wheel render width
@@ -794,7 +794,7 @@ function vehicle.set_vehicle_tire_fixed(veh, idx) end
 -- Get the vehicle's wheel power
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_power(veh, idx) end
 
 -- Set the vehicle's wheel power
@@ -807,7 +807,7 @@ function vehicle.set_vehicle_wheel_power(veh, idx, v) end
 -- Get the vehicle's wheel health
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_health(veh, idx) end
 
 -- Set the vehicle's wheel health
@@ -820,7 +820,7 @@ function vehicle.set_vehicle_wheel_health(veh, idx, v) end
 -- Get the vehicle's wheel brake pressure
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_brake_pressure(veh, idx) end
 
 -- Set the vehicle's wheel brake pressure
@@ -833,7 +833,7 @@ function vehicle.set_vehicle_wheel_brake_pressure(veh, idx, v) end
 -- Get the vehicle's wheel traction vector length
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_traction_vector_length(veh, idx) end
 
 -- Set the vehicle's wheel traction vector length
@@ -846,7 +846,7 @@ function vehicle.set_vehicle_wheel_traction_vector_length(veh, idx, v) end
 -- Get the vehicle's wheel x offset
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_x_offset(veh, idx) end
 
 -- Set the vehicle's wheel x offset
@@ -859,7 +859,7 @@ function vehicle.set_vehicle_wheel_x_offset(veh, idx, v) end
 -- Get the vehicle's wheel y rotation
 ---@param veh Vehicle
 ---@param idx integer
----@return float?
+---@return number?
 function vehicle.get_vehicle_wheel_y_rotation(veh, idx) end
 
 -- Set the vehicle's wheel y rotation
@@ -934,7 +934,7 @@ function vehicle.set_vehicle_gravity_amount(veh, gravity) end
 
 -- Get the vehicle's gravity amount
 ---@param veh Vehicle
----@return float?
+---@return number?
 function vehicle.get_vehicle_gravity_amount(veh) end
 
 -- Get the vehicle's wheel type
@@ -964,7 +964,7 @@ function vehicle.set_vehicle_parachute_model(veh, model) end
 
 -- Get the vehicle's suspension height offset
 ---@param veh Vehicle
----@return float?
+---@return number?
 function vehicle.get_vehicle_suspension_height_offset(veh) end
 
 -- Set the vehicle's suspension height offset

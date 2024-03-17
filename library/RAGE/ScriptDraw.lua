@@ -54,7 +54,7 @@ function scriptdraw.get_sprite_texture_count(id) end
 
 -- Returns the size of a text.
 ---@param text string
----@param scale float?
+---@param scale number?
 ---@param font integer?
 ---@return v2
 function scriptdraw.get_text_size(text, scale, font) end
@@ -65,7 +65,7 @@ function scriptdraw.get_text_size(text, scale, font) end
 ---@param scale number
 ---@param rot number
 ---@param color integer
----@param phase float?
+---@param phase number?
 function scriptdraw.draw_sprite(id, pos, scale, rot, color, phase) end
 
 -- Draws a line on the screen.
@@ -115,8 +115,8 @@ function scriptdraw.draw_triangle(pos1, pos2, pos3, color1, color2, color3) end
 ---@param pos v2
 ---@param radius number
 ---@param color integer
----@param radians float?
----@param phase_offset float?
+---@param radians number?
+---@param phase_offset number?
 ---@param sample_rate integer?
 function scriptdraw.draw_circle(pos, radius, color, radians, phase_offset, sample_rate) end
 
@@ -127,8 +127,8 @@ function scriptdraw.draw_circle(pos, radius, color, radians, phase_offset, sampl
 ---@param pos v2
 ---@param radius number
 ---@param color integer
----@param radians float?
----@param phase_offset float?
+---@param radians number?
+---@param phase_offset number?
 ---@param sample_rate integer?
 function scriptdraw.draw_circle_outline(pos, radius, color, radians, phase_offset, sample_rate) end
 

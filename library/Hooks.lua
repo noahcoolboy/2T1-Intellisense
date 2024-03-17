@@ -4,7 +4,7 @@
 hooks = {}
 
 -- Register script event hook
----@param callback fun(source: Player, target: Player, params: integer[], count: integer): void
+---@param callback fun(source: Player, target: Player, params: integer[], count: integer)
 ---@return integer
 function hooks.register_script_event(callback) end
 
@@ -14,7 +14,7 @@ function hooks.register_script_event(callback) end
 function hooks.remove_script_event(id) end
 
 -- Register network event hook
----@param callback fun(source: Player, target: Player, eventId: integer): void
+---@param callback fun(source: Player, target: Player, eventId: integer)
 ---@return integer
 function hooks.register_net_event(callback) end
 

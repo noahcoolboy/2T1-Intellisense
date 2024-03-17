@@ -15,7 +15,7 @@ function dsound.free(id) end
 
 -- Plays a WAV file.
 ---@param id integer
----@param volume float?
+---@param volume number?
 ---@param position integer?
 function dsound.play(id, volume, position) end
 

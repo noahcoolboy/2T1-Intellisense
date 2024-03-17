@@ -49,6 +49,17 @@ function MenuKey:is_down_stepped() end
 ---#@alias Pickup integer Unique pickup ID
 ---#@alias Thread integer Thread ID
 
+---@class Entity
+---@class Ped: Entity
+---@class Vehicle: Entity
+---@class Object: Entity
+---@class Group
+---@class Hash
+---@class Ptfx
+---@class Blip
+---@class Pickup
+---@class Thread
+---@class Player
 
 ---- Feature Types ----
 

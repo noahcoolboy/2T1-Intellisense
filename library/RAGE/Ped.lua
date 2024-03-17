@@ -384,7 +384,7 @@ function ped.set_ped_head_blend_data(ped, shape_first, shape_second, shape_third
 -- Get the face feature of a ped
 ---@param ped Ped
 ---@param id integer
----@return float|nil
+---@return number?
 function ped.get_ped_face_feature(ped, id) end
 
 -- Set the face feature of a ped
@@ -439,7 +439,7 @@ function ped.get_ped_head_overlay_value(ped, overlayID) end
 -- Get the head overlay opacity of a ped
 ---@param ped Ped
 ---@param overlayID integer
----@return float?
+---@return number?
 function ped.get_ped_head_overlay_opacity(ped, overlayID) end
 
 -- Set the head overlay color of a ped
@@ -492,7 +492,7 @@ function ped.remove_relationship_group(group) end
 
 -- Get the armor of a ped
 ---@param ped Ped
----@return float?
+---@return number?
 function ped.get_ped_armor(ped) end
 
 -- Set the armor of a ped

@@ -185,13 +185,13 @@ function entity.freeze_entity(entity, toggle) end
 -- Get the offset of an entity from coordinates
 ---@param lEntity Entity
 ---@param coords v3
----@return bool, v3
+---@return boolean, v3
 function entity.get_entity_offset_from_coords(lEntity, coords) end
 
 -- Get the offset of an entity from another entity
 ---@param lEntity Entity
 ---@param lEntity2 Entity
----@return bool, v3
+---@return boolean, v3
 function entity.get_entity_offset_from_entity(lEntity, lEntity2) end
 
 -- Set the alpha of an entity
@@ -371,7 +371,7 @@ function entity.get_entity_model_dimension_bounds(entity) end
 
 -- Get the LOD distance of an entity
 ---@param entity Entity
----@return int?
+---@return integer?
 function entity.get_entity_lod_dist(entity) end
 
 -- Set the LOD distance of an entity

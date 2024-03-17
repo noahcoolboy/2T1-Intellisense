@@ -90,7 +90,7 @@ function ui.set_text_font(font) end
 
 -- Sets the text wrap.
 ---@param start number
----@param end number
+---@param _end number
 function ui.set_text_wrap(start, _end) end
 
 -- Sets the text outline.

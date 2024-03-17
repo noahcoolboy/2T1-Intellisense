@@ -31,5 +31,5 @@ function cam.get_gameplay_cam_relative_yaw() end
 -- The rotation will contain pitch and yaw. Roll is always 0.
 ---@param from v3
 ---@param to v3
----@return bool,v3?
+---@return boolean,v3?
 function cam.get_euler_angles_between_coords(from, to) end
